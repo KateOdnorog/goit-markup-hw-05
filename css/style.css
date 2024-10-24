@@ -662,8 +662,8 @@ img {
   border: none;
 }
 
-.modal-close-btn:hover + .modal-icon-btn,
-.modal-close-btn:focus + .modal-icon-btn {
+.modal-close-btn:hover svg,
+.modal-close-btn:focus svg {
   fill: #ffffff;
 }
 
@@ -703,7 +703,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-  padding-left: 62px;
+  padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
@@ -775,7 +775,7 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
