@@ -528,21 +528,23 @@
 
         <div class="container-form-footer">
           <p class="text-soc-footer">Subscribe</p>
+
           <form class="footer-form">
-            <label for="user-email-footer" class="modal-label"></label>
-            <input
-              type="email"
-              name="user-email-footer"
-              id="user-email-footer"
-              placeholder="E-mail"
-              class="modal-input-footer"
-            />
-            <button type="submit" class="footer-btn">
-              Subscribe
-              <svg class="modal-icon-btn-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
+            <label for="user-email-footer" class="modal-label">
+              <input
+                type="email"
+                name="user-email-footer"
+                id="user-email-footer"
+                placeholder="E-mail"
+                class="modal-input-footer"
+              />
+              <button type="submit" class="footer-btn">
+                Subscribe
+                <svg class="modal-icon-btn-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
@@ -551,7 +553,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
-          <svg class="modal-icon" width="8" height="8">
+          <svg class="modal-icon-btn" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
@@ -610,7 +612,7 @@
             </div>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field modal-field-textarea">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -620,15 +622,16 @@
             ></textarea>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field modal-field-checkbox">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-checkbox visually-hidden"
+              value="true"
             />
-            <label for="policy" class="modal-label-checkbox">
-              <span>
+            <label for="user-privacy" class="modal-label-checkbox">
+              <span class="user-privacy-span">
                 <svg class="modal-icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
